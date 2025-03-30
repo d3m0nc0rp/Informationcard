@@ -1,0 +1,123 @@
+:root {
+--green: hsl(75, 94%, 57%);
+--white: hsl(0, 0%, 100%);
+--grey-700: hsl(0, 0%, 20%);
+--grey-800: hsl(0, 0%, 12%);
+--grey-900: hsl(0, 0%, 8%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+body {
+    background-color: var(--grey-900);
+}
+
+#Profile {
+    margin: 5rem auto;
+    width: 380px;
+    height: 530px;
+    background-color: var(--grey-800);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.avatar img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-top: 2rem;
+
+
+}
+
+.name {
+    text-align: center;
+}
+
+.name h1 {
+    color: var(--white);
+    font-size: 24px;
+    margin-top: 1.5rem;
+
+
+}
+
+.name h4 {
+    color: var(--green);
+    font-size: 14px;
+    margin-top: .5rem;
+
+
+
+}
+
+.name p {
+    color: var(--white);
+    font-size: 14px;
+    margin-top: 1.5rem;
+
+
+
+}
+
+.Information {
+    margin-top: 1.5rem;  
+}
+
+.Links li {
+    list-style-type: none;
+    text-align: center;
+    width: 304px;
+    height: 45px;
+    margin: 1rem 0rem;
+}
+
+.Links li a {
+    background-color: var(--grey-700);
+    text-decoration: none;
+    color:var(--white);
+    width: 304px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+    width: 90%;
+    height: 530px;
+}
+    
+.figtree-400{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.figtree-600 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+ }
+.figtree-700 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+ }
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
